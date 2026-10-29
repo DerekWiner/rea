@@ -23,6 +23,7 @@ REA is an ecosystem of interoperable projects, not a claim that one agent can au
 | [rea-core](https://github.com/DerekWiner/rea-core) | Shared investigation records and structural validation | Working schema and validator |
 | [rea-orchestrator](https://github.com/DerekWiner/rea-orchestrator) | Future task routing and delegation | Scaffold |
 | [synthesis-rea](https://github.com/DerekWiner/synthesis-rea) | Future comparison and synthesis across investigations | Scaffold |
+| [alvearium-commons](https://github.com/DerekWiner/alvearium-commons) | Narrow adapters and reproducibility receipts for existing research tools | Purpose defined, adapter not yet implemented |
 | Specialist REAs | Domain-specific investigation and tool adapters | Developed independently |
 
 REA investigates and reconstructs. MCP can provide interfaces to tools and data. JEV is a proposed fast triage and routing layer. Alvearium concerns agent coordination, identity, permissions and governance. These responsibilities are related but distinct, and integrations remain future work until implemented and tested.
