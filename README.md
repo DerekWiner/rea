@@ -21,7 +21,7 @@ REA is an ecosystem of interoperable projects, not a claim that one agent can au
 | Project | Responsibility | Status |
 | --- | --- | --- |
 | [rea-core](https://github.com/DerekWiner/rea-core) | Shared investigation records and structural validation | Working schema and validator |
-| [rea-orchestrator](https://github.com/DerekWiner/rea-orchestrator) | Future task routing and delegation | Scaffold |
+| [rea-orchestrator](https://github.com/DerekWiner/rea-orchestrator) | Task validation, explicit worker dispatch, approval gate, audit events and upstream-capture normalization | Runnable local prototype, no live MCP adapter yet |
 | [synthesis-rea](https://github.com/DerekWiner/synthesis-rea) | Future comparison and synthesis across investigations | Scaffold |
 | [alvearium-commons](https://github.com/DerekWiner/alvearium-commons) | Narrow adapters and reproducibility receipts for existing research tools | Purpose defined, adapter not yet implemented |
 | Specialist REAs | Domain-specific investigation and tool adapters | Developed independently |
@@ -43,7 +43,7 @@ REA investigates and reconstructs. MCP can provide interfaces to tools and data.
 
 REA has a working foundation in `rea-core` and a broader set of planned components. It does not yet provide a complete reverse-engineering engine, universal artifact decompiler or fully autonomous investigation runtime.
 
-The next useful milestone is one end-to-end specialist workflow that consumes and emits the shared REA Core format, with tests and a reproducible example.
+The next useful milestone is a live, bounded upstream REA adapter that converts native tool results into the tested capture contract, validates records with REA Core, and retains raw evidence. See the [ecosystem roadmap](docs/ecosystem-roadmap.md) for repository boundaries, milestones, setup and automation requirements.
 
 ## License
 
